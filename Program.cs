@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Trainer trainer = new Trainer();
+            Charmander charmander = new Charmander("파이리",5);
+            trainer.AddMonster(charmander);
+            trainer.AllAttack();
         }
     }
 }
